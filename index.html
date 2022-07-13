@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+    <form id="alerter">
+        <h1>The Alerter</h1>
+        <img src="http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/exclamation-mark.png" id="alert">
+        <div>
+        <input id="input" type="text" autocomplete="off">
+    </div>
+    <div>
+        <input id="submitButton" type="submit">
+    </div>
+    </form>
+    </div>
+    <form id="form2">
+        <h1>Sandwich Builder</h1>
+    <div>
+        <img src="https://media.istockphoto.com/vectors/funny-sandwich-cartoon-illustration-in-retro-style-vector-id1335300811?k=20&m=1335300811&s=612x612&w=0&h=oobAHE0iwcoM0KojQHTXV57RjYPDTud2lB8p-0_2MMw=" id="sandwichImg">
+        <div>
+            <label>Bread</label>
+            <input id="bread" type="checkbox">
+            </div>
+        <div>
+                <label>Cheese</label>
+                <input id="cheese" type="checkbox">
+            </div>
+        <div>
+                <label>Meat</label>
+                <input id="meat" type="checkbox">
+            </div>
+         <div>
+                <label>Peppers</label>
+                <input id="peppers" type="checkbox">
+            </div>
+         <div>
+                <label>Lettuce</label>
+                <input id="lettuce" type="checkbox">
+            </div>
+        <div>
+                <label>Onions</label>
+                <input id="onions" type="checkbox">
+            </div>
+        <div>
+                <label>Mayo and Mustard</label>
+                <input id="mayoMustard" type="checkbox">
+            </div>
+        <div>
+                <label>Cucumber</label>
+                <input id="cucumber" type="checkbox">
+            </div>
+         <div>
+                <label>Olives</label>
+                <input id="olives" type="checkbox">
+            </div>
+         <div>
+                <label>Tomatoes</label>
+                <input id="tomatoes" type="checkbox">
+            </div>
+            <div>
+            <input id="submitSandwich" type="submit">
+        </div>
+        </div>
+    </form>
+    </div> 
+
+    <form id="form3">
+        <h1>Haircut appointment scheduler</h1>
+        <div>
+            <img src="https://png.pngtree.com/element_origin_min_pic/16/09/01/1357c7bcd874384.jpg" id="barberPng">
+            <div>
+            <label>Select date for appointment: </label>
+            <input id="date" type="date">
+        </div>
+        <div>
+            <label>Name of stylist that you are requesting: </label>
+            <input id="textInput" type="text">
+        </div>
+        <div>
+            <label>Short hair: </label>
+            <input id="shortHair" type="radio" name="hairLength">
+            <br>
+            <label>Long hair: </label>
+            <input id="longHair" type="radio" name="hairLength">
+        </div>
+         </div>
+        <input id="hairSubmit" type="submit">
+    </form>
+    </div>
+<br>
+<div>
+    <h1>Create an account</h1>
+    <br>
+    <img src="data:image/png;base64,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" id="lockPng">
+    <form id="form4">
+        <div>
+        <input id="username" type="text" autocomplete="off" placeholder="username">
+    </div>
+     <div>
+        <input id="email" type="email" autocomplete="off" placeholder="e-mail">
+    </div>
+    <div>
+        <input id="password" type="password" autocomplete="off" placeholder="password">
+    </div>
+    <div>
+        <input id="confirmPass" type="password" autocomplete="off" placeholder="confirm password">
+    </div>
+    <div>
+        <input id="submitAccount" type="submit">
+    </div>
+    </form>
+</div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
